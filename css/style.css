@@ -43,7 +43,7 @@ img{
   background-image: url("../img/Grasstrees.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
   height: 600px;
   width: auto;
