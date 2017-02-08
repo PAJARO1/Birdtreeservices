@@ -43,7 +43,7 @@ img{
   background-image: url("../img/Grasstrees.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   height: 600px;
   width: auto;
@@ -203,6 +203,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   #home{
     height: 450px;
+    background-attachment: scroll;
   }
 
   .container1{
