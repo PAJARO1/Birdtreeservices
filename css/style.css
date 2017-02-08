@@ -1,0 +1,275 @@
+.page{
+  height: 100vh;
+}
+img{
+  height: auto;
+  width: 100%;
+}
+.container1{
+  height:100px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center
+}
+.box1{
+  height: 10px;
+  width: 100px;
+  border-bottom: 2px solid black;
+}
+
+.logo{
+  height: 15px;
+  width:15px;
+  border-radius: 100%;
+  border:  2px solid #88DED9;
+
+}
+
+
+.box2{
+  height: 10px;
+  width: 100px;
+  border-bottom: 2px solid black;
+}
+
+#home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/Grasstrees.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 600px;
+  width: auto;
+  padding-top: 50px;
+
+}
+.title1{
+  font-size: 5em;
+  font-family: 'Crete Round', serif;
+  color: white;
+  font-weight: bolder;
+  text-shadow: 0 0 10px	black;
+}
+
+#Contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.section1{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+background-color: #F5F5DC;
+
+}
+
+.image1{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.article1{
+  margin-top: 50px;
+}
+
+
+#about{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+#Services{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+}
+
+#portfolio{
+
+}
+
+
+
+/**
+ * Media Queries
+ **/
+@media screen and (min-width: 320px) {
+  .page::before{
+    content: "320px";
+    color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 480px) {
+  .page::before {
+    content: "480px";
+    color: maroon;
+  }
+
+}
+@media screen and (min-width: 620px) {
+  .page::before {
+    content: "620px";
+    color: orange;
+  }
+  #home{
+    height: 500px;
+  }
+  .container1{
+    height: 100px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box1{
+    height: 10px;
+    width: 500px;
+    border-bottom: 2px solid black;
+  }
+
+  .logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border:  2px solid #88DED9;
+
+  }
+
+
+  .box2{
+    height: 10px;
+    width: 500px;
+    border-bottom: 2px solid black;
+  }
+
+.contact1{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 600px;
+    align-content: center;
+
+
+
+  }
+
+
+.section1{
+ display: flex;
+ height: 400px;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+.image1 img{
+  width: 300px;
+  height: 300px;
+}
+.article1{
+  height: auto;
+  width: 400px;
+  margin-left: 20px;
+}
+
+}
+
+@media screen and (min-width: 810px) {
+  .page::before {
+    content: "810px";
+    color: black;
+  }
+  #home{
+    height: 450px;
+  }
+
+  .container1{
+    height: 100px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box1{
+    height: 10px;
+    width: 500px;
+    border-bottom: 2px solid black;
+  }
+
+  .logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border:  2px solid #88DED9;
+
+  }
+
+
+  .box2{
+    height: 10px;
+    width: 500px;
+    border-bottom: 2px solid black;
+  }
+
+.contact1{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 600px;
+    align-content: center;
+
+
+
+  }
+
+
+.section1{
+ display: flex;
+ height: 400px;
+ flex-direction: row;
+ justify-content: center;
+ justify-content: space-between;
+ align-items: center;
+}
+.image1 img{
+  width: 400px;
+  height: 300px;
+}
+.article1{
+  height: auto;
+  width: 500px;
+}
+}
+
+
+@media screen and (min-width: 1400px) {
+  .container::before{
+    content: "1400px";
+    color: black;
+  }
+
+}
